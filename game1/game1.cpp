@@ -15,6 +15,7 @@ void main()
 	
 	srand( currentTime );
 	computerNumber = rand();
+	computerNumber = computerNumber % ( numberRange + 1 );
 	
 	printf("Computer set number: %i Range: %i to %i \n", computerNumber, 0, numberRange);
 	
