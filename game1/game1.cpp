@@ -19,5 +19,23 @@ void main()
 	
 	printf("Computer set number: %i Range: %i to %i \n", computerNumber, 0, numberRange);
 	
+	printf("Input your number: ");
+	scanf("%i", &playerNumber);
+	
+	if( playerNumber < computerNumber )
+	{
+		printf("Larger!\n");
+	}
+	else
+	{
+		if ( playerNumber > computerNumber )
+		{
+			printf("Less!\n");
+		}
+		else
+		{
+			printf("Yeaah!!\n");
+		}
+	}
 	
 }
